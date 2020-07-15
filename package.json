@@ -1,0 +1,14 @@
+{
+  "name": "vitepress-vercel-auth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "static-auth": "^2.0.0",
+    "vitepress": "^0.4.1"
+  },
+  "scripts": {
+    "serve": "vitepress",
+    "build": "rm -rf public && vitepress build src && mv src/.vitepress/dist public"
+  }
+}
